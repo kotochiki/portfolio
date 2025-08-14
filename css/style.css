@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #dddddd;
+}
+
+:lang(en) {
+    font-family: 'Murecho', sans-serif;
+}
+
+
+@media (max-width: 449.98px) {
+	.navbar {
+        width: 100% ;
+	}
+	.slogan {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 450px) {
+	.container-fluid {
+        width: 450px;
+        margin: 0 auto; 
+	}
+	.navbar {
+        width: 450px;
+        margin: 0 auto; 
+	}
+	.slogan {
+		font-size: 22px;
+	}
+	
+	.btn-mx {
+		padding: 0px 20px 0px 20px;
+	}
+}
+
+
+.container-fluid {
+	/*
+    max-width: 320px;
+    min-width: 320px;
+	*/
+	
+min-height: 100vh;
+padding: 155px 0px 20px 0px;
+background-color: rgb(215, 233, 234);
+}
+
+
+.row {
+    margin: 0px;
+    padding: 10px 20px 10px 20px;
+	width: 100%;
+}
+
+.bg {
+    background-color: rgb(231, 239, 239);
+}
+
+.navbar {
+    background-color: #fff;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+	/*
+    width: 320px;
+	*/
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 1030;
+	padding: 10px 20px 10px 20px;
+}
+
+.navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+
+.name-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0px 20px 0px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 15px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 6px;
+    line-height: 0px;
+    color: rgb(87, 87, 87);
+    padding-right: 11px;
+
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+	color: #324b5f;
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 20px;
+    letter-spacing: 5px;
+	color: #324b5f;
+	margin: 15px auto;
+}
+
+.cred-tx {
+    font-size: 14px;
+	color: #324b5f;
+	text-align: center;
+}
+
+.shake-hands {
+	margin: auto;
+	max-width: 350px;
+}
+
+.slogan {
+    line-height: 35px;
+    font-style: oblique;
+    text-shadow: 3px 3px 15px #fff,
+-3px 3px 15px  #fff,
+3px -3px 15px  #fff,
+-3px -3px 15px  #fff,
+0px 0px 10px  #fff,
+0px 0px 10px  #fff,
+0px 0px 10px  #fff,
+0px 0px 10px  #fff,
+0px 0px 10px  #fff;
+text-align: center;
+margin: auto;
+padding: 30px 15px 0px 0px;
+}
+
+.cred-btn {
+    display: block;
+    margin: 20px 0px 30px 0px;
+    padding: 5px 0px 5px 15px;
+    border-radius: 100px;
+    border-width: 3px;
+    color: #4a98af;
+    border-color: #4a98af;
+    font-weight: 900;
+	line-height: 25px
+}
+
+.cred-btn span {
+	font-size: 12px;
+	margin-right: 2px;
+	vertical-align: bottom;
+	line-height: 25px
+}
+
+.cred-btn:hover,
+.cred-btn:focus,
+.cred-btn.btn-outline-primary:active {
+    color: #fff;
+    background-color: #4a98af;
+    border-color: #4a98af;
+}
+
+.detail {
+    line-height: 17px;
+    color: #004567;
+}
+
+.main-btn {
+	width: 100%;
+	/*
+    width: 120px;
+    height: 100px;
+	*/
+    margin: 10px 0px 10px 0px;
+    padding: 18px;
+    border-radius: 20px;
+    background-color: #3c7290;
+    border-color: #3c7290;
+    line-height: 25px;
+}
+
+.main-btn:hover,
+.main-btn:focus,
+.main-btn.btn-primary:active {
+    color: #fff;
+    background-color: #2d566c;
+    border-color: #2d566c;
+}
+
+.main-icon {
+	display: block;
+    font-size: 50px;
+	padding: 5px;
+}
+
+.main-tx {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.blog-btn {
+    display: block;
+    margin: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 100px;
+    color:#fff;
+    background-color: #42647f;
+    border-color: #42647f;
+	text-align: center;
+}
+
+.blog-btn:hover,
+.blog-btn:focus,
+.blog-btn.btn-primary:active {
+    background-color: #324b5f;
+    border-color: #324b5f;
+}
+
+.blog-tx {
+	font-size: 15px;
+}
+
+.blog-i1 {
+	color: #a1b2bf;
+	margin-left: 20px;
+}
+
+.blog-i2 {
+	color: #a1b2bf;
+	margin-left: 35px;
+}
+
+.back-btn {
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    border-radius: 100px;
+    color: #324b5f;
+	text-decoration: none;
+}
+
+.back-btn:hover,
+.back-btn:focus,
+.back-btn:active {
+	color: #657887;
+}
+
+.sns-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 20px 0px 20px 0px;
+	line-height: 34px;
+}
+
+.sns-icon {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    color: #88ABDA;
+}

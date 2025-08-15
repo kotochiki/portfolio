@@ -1,2 +1,0 @@
-/*
-  Basic-Auth: haruka:1109
